@@ -20,7 +20,7 @@
         <activity android:name=".activities.KadinActivity" />
         <activity android:name=".activities.ErkekActivity" />
         <activity android:name=".activities.CocukActivity" />
-        <activity android:name=".activities.IndirimActivity"></activity>
+        <activity android:name=".activities.IndirimActivity" />
     </application>
 
 </manifest>
