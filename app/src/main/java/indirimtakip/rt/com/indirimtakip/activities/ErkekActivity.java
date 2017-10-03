@@ -10,6 +10,6 @@ public class ErkekActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_erkek);
+        setContentView(R.layout.menu_activity_erkek);
     }
 }

@@ -10,6 +10,6 @@ public class IndirimActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_indirim);
+        setContentView(R.layout.menu_activity_indirim);
     }
 }

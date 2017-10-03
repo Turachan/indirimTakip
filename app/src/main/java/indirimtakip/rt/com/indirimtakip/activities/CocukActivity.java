@@ -10,6 +10,6 @@ public class CocukActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cocuk);
+        setContentView(R.layout.menu_activity_cocuk);
     }
 }

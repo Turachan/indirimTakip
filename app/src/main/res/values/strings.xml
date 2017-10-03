@@ -1,3 +1,51 @@
 <resources>
     <string name="app_name">IndirimTakip</string>
+    <string-array name="kadinURL">
+        <item>www.site1.com</item>
+        <item>www.site2.com</item>
+        <item>www.site3.com</item>
+        <item>www.site4.com</item>
+    </string-array>
+    <string-array name="kadinHTML">
+        <item>www.site1.com</item>
+        <item>www.site2.com</item>
+        <item>www.site3.com</item>
+        <item>www.site4.com</item>
+    </string-array>
+    <string-array name="erkekURL">
+        <item>www.site1.com</item>
+        <item>www.site2.com</item>
+        <item>www.site3.com</item>
+        <item>www.site4.com</item>
+    </string-array>
+    <string-array name="erkekHTML">
+        <item>www.site1.com</item>
+        <item>www.site2.com</item>
+        <item>www.site3.com</item>
+        <item>www.site4.com</item>
+    </string-array>
+    <string-array name="cocukURL">
+        <item>www.site1.com</item>
+        <item>www.site2.com</item>
+        <item>www.site3.com</item>
+        <item>www.site4.com</item>
+    </string-array>
+    <string-array name="cocukHTML">
+        <item>www.site1.com</item>
+        <item>www.site2.com</item>
+        <item>www.site3.com</item>
+        <item>www.site4.com</item>
+    </string-array>
+    <string-array name="indirimURL">
+        <item>www.site1.com</item>
+        <item>www.site2.com</item>
+        <item>www.site3.com</item>
+        <item>www.site4.com</item>
+    </string-array>
+    <string-array name="indirimHTML">
+        <item>www.site1.com</item>
+        <item>www.site2.com</item>
+        <item>www.site3.com</item>
+        <item>www.site4.com</item>
+    </string-array>
 </resources>

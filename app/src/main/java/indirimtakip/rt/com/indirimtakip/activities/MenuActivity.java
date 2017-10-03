@@ -6,9 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import java.io.Console;
-
 import indirimtakip.rt.com.indirimtakip.R;
+import indirimtakip.rt.com.indirimtakip.parser.ParseKadin;
 
 public class MenuActivity extends AppCompatActivity {
 
@@ -16,7 +15,7 @@ public class MenuActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_menu);
+        setContentView(R.layout.menu_activity_menu);
 
         Button erkekBtn, kadinBtn, cocukBtn, indirimBtn;
 
@@ -36,6 +35,7 @@ public class MenuActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), KadinActivity.class);
+                ParseKadin parseKadin = new ParseKadin(getResources().getStringArray(R.array.kadinHTML));
                 startActivity(intent);
             }
         });
